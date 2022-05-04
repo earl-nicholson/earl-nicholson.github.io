@@ -1,0 +1,101 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+h1, h5 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+/* cta */
+
+.resume {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+/* social icons */
+
+.header-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    left: 2rem;
+    bottom: 3rem;
+    font-size: 3rem;
+}
+
+.header-socials::after {
+    content: '' ;
+    width: 4px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* image */
+
+.me {
+    background: linear-gradient( var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+/* scroll down bar */
+
+.scroll_down {
+    position: absolute;
+    right: 0rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* media queries for medium devices */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+        float: center;
+    }
+}
+
+/* media queries for small devices */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+        float: center;
+    }
+
+    .header-socials, .scroll_down {
+        display: none;
+        float: center;
+    }
+}
