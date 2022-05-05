@@ -6,7 +6,7 @@ const Experience = () => {
   return (
   <section id='experience'>
     <h5>The Skills I Have</h5>
-    <h2>Langues</h2>
+    <h2>Languages</h2>
 
     <div className='container experience__container'>
 
@@ -27,7 +27,7 @@ const Experience = () => {
           <SiCheckmarx className='experience__details-icon'/>
           <div>
             <h4>CSS</h4>
-            <small className='text-light'>Experienced</small>
+            <small className='text-light'>Intermediate</small>
           </div>
           </article>
           
@@ -81,7 +81,7 @@ const Experience = () => {
           <SiCheckmarx className='experience__details-icon'/>
           <div>
             <h4>APIs/Postman</h4>
-            <small className='text-light'>Experienced</small>
+            <small className='text-light'>Intermediate</small>
           </div>
           </article>
         </div>
@@ -89,7 +89,7 @@ const Experience = () => {
 
 
 {/* extra content */}
-      <div className='experience__backend'>
+      {/* <div className='experience__backend'>
         <h3>Backend Dev</h3>
         <div className='experience__content'>
           <article className='experience__details'>
@@ -124,7 +124,7 @@ const Experience = () => {
           </div>
           </article>
         </div>
-      </div>
+      </div> */}
 
     </div>
 
